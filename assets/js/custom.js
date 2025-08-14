@@ -1,4 +1,4 @@
-let button = document.querySelector(".btn-info");
-button.addEventListener("click", ()=>{
-    alert(button.innerText)
+let actionBtn = document.querySelector(".btn-info");
+actionBtn.addEventListener("click", function(){
+    alert("You click button")
 })
