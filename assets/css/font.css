@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "bitter";
+    src: url(../fonts/Bitter-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "bitter";
+    src: url(../fonts/Bitter-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "bitter";
+    src: url(../fonts/Bitter-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "bitter";
+    src: url(../fonts/Bitter-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "bitter";
+    src: url(../fonts/Bitter-Bold.ttf);
+    font-weight: 700;
+}
