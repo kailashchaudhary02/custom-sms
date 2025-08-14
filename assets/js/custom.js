@@ -1,1 +1,1 @@
-//
+let varname = document.getElementById("demo");
