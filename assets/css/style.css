@@ -5,3 +5,54 @@
     --white: #ffffff;
 }
 body{padding: 0; margin: 0; box-sizing: border-box;  font-family: "bitter"; font-weight: 400;}
+
+header{background: #000;}
+
+.navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none; display: flex;
+}
+.navigation li{padding: 0.75rem 1rem;}
+.navigation li > a{color: #fff; text-decoration: none;}
+
+
+@media(max-width:992px){
+    .header {
+    position: fixed;
+    height: 56px;
+    top: 0;
+    z-index: 1;
+    width:100%
+    }
+    .main-menu {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 55px;
+    transition: 0.5s ease;
+}
+.navigation {
+    flex-direction: column;
+    width: 80%;
+    background: #fff;
+    height:100%
+}
+.navigation li {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+.navigation li > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.toggleButton {
+    border: 0;
+    background: 0;
+    margin-top: .75rem;
+}
+
+}
